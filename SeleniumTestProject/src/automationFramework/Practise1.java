@@ -27,6 +27,7 @@ public class Practise1 {
 		commands.selectByVisibleText("Browser Commands");
 		commands.selectByVisibleText("WebElement Commands");
 		driver.findElement(By.id("submit")).click();
+		System.out.println("To chek update in Git Hub");
 		
 		
 

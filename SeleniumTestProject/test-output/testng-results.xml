@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45019" started-at="2020-08-04T15:12:29Z" finished-at="2020-08-04T15:13:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45019" started-at="2020-08-04T15:12:29Z" finished-at="2020-08-04T15:13:14Z">
+      <class name="testNGFramework.SpiceJetDemo">
+        <test-method status="PASS" signature="a_browser_opening()[pri:0, instance:testNGFramework.SpiceJetDemo@5f375618]" name="a_browser_opening" duration-ms="20124" started-at="2020-08-04T20:42:29Z" finished-at="2020-08-04T20:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_browser_opening -->
+        <test-method status="PASS" signature="b_from()[pri:0, instance:testNGFramework.SpiceJetDemo@5f375618]" name="b_from" duration-ms="5430" started-at="2020-08-04T20:42:49Z" finished-at="2020-08-04T20:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_from -->
+        <test-method status="PASS" signature="c_destination()[pri:0, instance:testNGFramework.SpiceJetDemo@5f375618]" name="c_destination" duration-ms="5280" started-at="2020-08-04T20:42:54Z" finished-at="2020-08-04T20:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_destination -->
+        <test-method status="PASS" signature="d_departuredate()[pri:0, instance:testNGFramework.SpiceJetDemo@5f375618]" name="d_departuredate" duration-ms="5513" started-at="2020-08-04T20:42:59Z" finished-at="2020-08-04T20:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_departuredate -->
+        <test-method status="PASS" signature="e_passenger()[pri:0, instance:testNGFramework.SpiceJetDemo@5f375618]" name="e_passenger" duration-ms="3509" started-at="2020-08-04T20:43:05Z" finished-at="2020-08-04T20:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e_passenger -->
+        <test-method status="PASS" signature="f_currency()[pri:0, instance:testNGFramework.SpiceJetDemo@5f375618]" name="f_currency" duration-ms="5140" started-at="2020-08-04T20:43:08Z" finished-at="2020-08-04T20:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f_currency -->
+      </class> <!-- testNGFramework.SpiceJetDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

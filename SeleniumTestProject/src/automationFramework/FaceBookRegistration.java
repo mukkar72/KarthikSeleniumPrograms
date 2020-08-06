@@ -1,0 +1,34 @@
+package automationFramework;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class FaceBookRegistration {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "D://Selenium//Essential Softwares//chromedriver_win32//chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.facebook.com/");
+		driver.manage().window().maximize();
+		driver.findElement(By.id("u_0_m")).sendKeys("test");
+		driver.findElement(By.id("u_0_o")).sendKeys("user");
+		driver.findElement(By.id("u_0_r")).sendKeys("9840372000");
+		driver.findElement(By.id("password_step_input")).sendKeys("Mukunth05");
+		Select date = new Select(driver.findElement(By.id("day")));
+		date.selectByVisibleText("7");
+		Select month = new Select(driver.findElement(By.id("month")));
+		month.selectByVisibleText("Jun");
+		Select  year = new Select(driver.findElement(By.id("year")));
+		year.selectByVisibleText("1972");
+		WebElement gender = driver.findElement(By.id("u_0_6"));
+		gender.click();
+		WebElement finish = driver.findElement(By.name("websubmit"));
+		finish.click();
+		
+
+	}
+
+}

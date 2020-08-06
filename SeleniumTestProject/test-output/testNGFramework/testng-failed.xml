@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNGFramework]">
+  <test name="FlipkartNewTab(failed)">
+    <classes>
+      <class name="testNGFramework.FlipkartNewTab">
+        <methods>
+          <include name="d_casualshirts"/>
+          <include name="e_addtocart"/>
+        </methods>
+      </class> <!-- testNGFramework.FlipkartNewTab -->
+    </classes>
+  </test> <!-- FlipkartNewTab(failed) -->
+</suite> <!-- Failed suite [testNGFramework] -->

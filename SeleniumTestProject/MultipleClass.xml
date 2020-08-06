@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNGFramework">
+  <test name="test1">
+  <classes>
+  <class name="testNGFramework.Xcart"></class>
+  </classes>
+  </test> <!-- Test -->
+  <test name="test2">
+  <classes>
+  <class name="testNGFramework.JPetStore"></class>
+  </classes>
+  </test> <!-- Test -->
+  <test name="test3">
+  <classes>
+  <class name="testNGFramework.BankDemo"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
